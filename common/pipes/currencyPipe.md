@@ -17,11 +17,11 @@ import { CurrencyPipe } from '@angular/common';
 
 * `symbolDisplay`是一个布尔值，用来决定是使用货币符号还是使用货币代码：
 
-    `true`使用货币符号（比如¥，$）
+    * `true`使用货币符号（比如¥，$）
     
-    `false`使用货币代码，比如USD，CNY，EUR
+    * `false`使用货币代码，比如USD，CNY，EUR
 
-* `digitInfo`请参阅`DecimalPipe`了解详细信息
+* `digitInfo`请参阅[`DecimalPipe`](./decimalPipe.md)了解详细信息
 
 #### 实例
 ```javascript
